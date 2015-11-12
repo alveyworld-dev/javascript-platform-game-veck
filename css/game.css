@@ -2,6 +2,7 @@
                  table-layout: fixed;
                  border-spacing: 0;   }
 .background td { padding: 0;          }
+
 .lava          { background: yellow; }
 .wall          { background: red;   }
 
