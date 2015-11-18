@@ -8,7 +8,13 @@
 
 .actor  { position: absolute;  }
 .coin   { background: rgb(241, 229, 89); }
-.player { background: rgb(78,255,0)}
+.player { 
+background: rgb(78,255,0) url("face.jpg") no-repeat;
+border-right: 2px solid white;
+border-left: 2px solid white;
+border-radius: 10px;
+
+}
 
 .game {
   overflow: hidden;
