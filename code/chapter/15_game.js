@@ -228,8 +228,7 @@ Coin.prototype.act = function(step) {
   var wobblePos = Math.sin(this.wobble) * wobbleDist;
   this.pos = this.basePos.plus(new Vector(0, wobblePos));
 };
-
-var playerXSpeed = 7;
+var playerXSpeed = 30
 
 Player.prototype.moveX = function(step, level, keys) {
   this.speed.x = 0;
@@ -246,7 +245,7 @@ Player.prototype.moveX = function(step, level, keys) {
 };
 
 var gravity = 30;
-var jumpSpeed = 17;
+var jumpSpeed = 40;
 
 Player.prototype.moveY = function(step, level, keys) {
   this.speed.y += step * gravity;
